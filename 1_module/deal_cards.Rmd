@@ -1,0 +1,12 @@
+---
+title: "Deal Cards"
+output: html_notebook
+---
+deck <- read.csv("cards.csv")
+
+
+deal <- function(cards) {
+  cards[1, ]
+}
+
+print(deal(deck))
