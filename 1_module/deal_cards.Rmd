@@ -10,3 +10,6 @@ deal <- function(cards) {
 }
 
 print(deal(deck))
+
+deck2 <- deck[1:52, ]
+head(deck2)
